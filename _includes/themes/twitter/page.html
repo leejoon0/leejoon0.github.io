@@ -1,9 +1,52 @@
+<!--
 <div class="page-header">
   <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
 </div>
+-->
+
+<script>
+    function JSONP( url, callback ) {	
+        var id = ( 'jsonp' + Math.random() * new Date() ).replace('.', '');	
+        var script = document.createElement('script');	
+        script.src = url.replace( 'callback=?', 'callback=' + id );	
+        document.body.appendChild( script );	
+        window[ id ] = function( data ) {		
+            if (callback) {			
+                callback( data );		
+                }	
+        };
+    }
+    
+    JSONP( 'https://api.github.com/users/leejoon0?callback=?', function( response ) {	
+        var data = response.data;	
+        console.log(data.followers);
+    });
+</script>
+
+<!--<a href="https://twitter.com/share" class="twitter-share-button" data-via="leejoon0">Tweet</a>-->
+
+<!-- Put this just before the closing body tag -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 <div class="row-fluid">
-  <div class="span12">
-    {{ content }}
-  </div>
+    <div class="span8">
+        {{ content }}
+    </div>
+    <div class="span4 columns">
+        <h5>Hello, I'm Leejoonyoung</h5>
+        <p>
+            <img class="img-rounded floatLeft" style="width:30%;height:30%" src="http://crossfitwod.herokuapp.com/uploads/pic_sm.JPG" title="It's me" />I am a Developer and Crossfitter(about 1 year)
+        </p>
+        <p><a href="https://twitter.com/leejoon0" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @leejoon0</a></p>
+        <p>
+            <div class="social-buttons">
+                <div class="text-center">
+                <a href="http://github.com/leejoon0" class="btn btn-social-icon btn-twitter" title="Go to github.com/leejoon0" target="_blank">
+                <i class="fa fa-twitter"></i>
+                </a>
+                <a class="btn btn-social-icon btn-github"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+        </p>
+    </div>
 </div>

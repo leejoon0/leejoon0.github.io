@@ -12,3 +12,5 @@ tagline: Supporting tagline
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+
+![alt text](http://crossfitwod.herokuapp.com/uploads/pic_sm_.JPG "it's me")

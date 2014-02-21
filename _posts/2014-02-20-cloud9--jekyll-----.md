@@ -63,6 +63,7 @@ repository명(username.github.io)과 당신의 github username을 동일하게 �
     /USERNAME.github.io $ git commit -m "first commit~~"
     /USERNAME.github.io $ git push origin master
 
+[](https://www.flickr.com/photos/bees/2362225867/ 'width:300px')
 
 
 
