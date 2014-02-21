@@ -1,3 +1,6 @@
+<style>
+    .winter { font-size:12px; }
+</style>
 <script type="text/javascript">
 	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 	var disqus_shortname = 'engineerleejoon0blog'; // required: replace example with your forum shortname
@@ -9,7 +12,8 @@
 		var s = document.createElement('script'); s.async = true;
 		s.type = 'text/javascript';
 		s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-		(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+		s
+		(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s).addClass('winter');
 	}());
 </script>
 
