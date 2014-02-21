@@ -37,7 +37,7 @@ repository명(username.github.io)과 당신의 github username을 동일하게 �
 내려받은 소스 경로로 이동 후, jekyll 서비스 시작
 
     $cd USERNAME.github.io
-    /USERNAME.github.io $jekyll serve --host $IP --port $PORT --watch
+    /USERNAME.github.io $ jekyll serve --host $IP --port $PORT --watch
 
 우린 Cloud9상에서 서비스를 시작하는 것이라서, `--host $IP --port $PORT`가 필요함.
 
