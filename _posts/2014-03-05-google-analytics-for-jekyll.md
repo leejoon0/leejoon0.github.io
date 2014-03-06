@@ -2,7 +2,7 @@
 layout: post
 title: "google analytics for jekyll"
 description: ""
-category:jekyll
+category: jekyll
 tags: [jekyll, google analytics]
 ---
 {% include JB/setup %}
@@ -21,11 +21,11 @@ tags: [jekyll, google analytics]
 
 이미지 추가 예정. 그림2
 
-`Tracking ID` 확인!
+`Tracking ID` 확인
 
 ### Config Jekyll
 
-_config.yml 파일에 해당 google analytics와 관련된 곳에 `Tracking ID` 교체
+`_config.yml` 파일에 해당 google analytics와 관련된 곳에 `Tracking ID` 교체
 
     analytics :
     provider : google 
