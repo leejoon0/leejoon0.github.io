@@ -21,4 +21,17 @@ tags: [jekyll, google analytics]
 
 이미지 추가 예정. 그림2
 
-`Tracking ID`
+`Tracking ID` 확인!
+
+### Config Jekyll
+
+_config.yml 파일에 해당 google analytics와 관련된 곳에 `Tracking ID` 교체
+
+    analytics :
+    provider : google 
+    google : 
+        tracking_id : 'UA-48711323-1'
+
+### 결과물
+
+이미지 추가 예정. 그림3
