@@ -35,9 +35,43 @@
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
     
+    <script src="//www.google-analytics.com/cx/api.js?experiment=YByMKfprRCStcMvK8zh1yw"></script>
+
+    <script>
+      var image_variations = [
+          'original.png',
+          'variation1.png',
+          'variation2.png'
+      ]
+    
+      // 2. Choose the Variation for the Visitor
+      var variation = cxApi.chooseVariation();
+    
+      window.onload = function(){
+        // 3. Evaluate the result and update the image
+        exp_image = document.getElementById('hero_image');
+        exp_image.src = image_variations[variation];
+      }
+    </script>
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-48711323-1']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+    </script>
+    
   </head>
 
   <body>
+  
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container-narrow">
@@ -58,6 +92,9 @@
       </div>
       <hr>
       <footer>
+          <img id="hero_image"/>
+          <a href="" onclick="_gaq.push(['_trackEvent', 'leejoon0', 'Action', 'Extra Label if you like!']);">Click!</a>
+          <a href="#" onClick="_gaq.push(['_trackEvent', 'Videos', 'Play', 'Baby\'s First Birthday']);">Play</a>
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
