@@ -34,11 +34,35 @@ tags: [Django, MongoLab, MongoDB, Python]
 PyMongo 설치 끝!
 
 
-### manage.py에 MongoLab(MongoDB) 연동하기
+### 간단하게 manage.py에 MongoLab(MongoDB) 연동하기
 
 [MongoLab](https://mongolab.com)에 생성한 데이터베이스 정보 상단에 아래와 같은 내용이 있다.
 
-![mongoLab](https://onedrive.live.com/embed?cid=E64020B0D7EDAE82%28resid=E64020B0D7EDAE82%21508%28authkey=AK7uEBx2hSpXyOg "mongoLab")
-<img class="img-rounded floatLeft" src="https://onedrive.live.com/embed?cid=E64020B0D7EDAE82%28resid=E64020B0D7EDAE82%21508%28authkey=AK7uEBx2hSpXyOg" title="mongolab info" />
+`[캡쳐 이미지 삽입 예정]`
 
-<img class="img-rounded floatLeft" style="width:30%;height:30%" src="http://crossfitwod.herokuapp.com/uploads/pic_sm.JPG" title="It's me" />
+MongoLab 연동에 필요한 정보는
+
+    mongodb://<dbuser>:<dbpassword>@ds035438.mongolab.com:35438/fitterlifedb
+
+위에서 `<dbuser>:<dbpassword>` 이부분은 '본인의 mongoLab 계정과 비번'을 입력하면 된다.
+
+manage.py에 적용된 소스 정보
+
+    ..
+    import pymongo
+    ..
+    .. 다른 소스들
+    .. 
+    MONGODB_URI = 'mongodb://<dbuser>:<dbpassword>@ds035438.mongolab.com:35438/fitterlifedb'
+    client = pymongo.MongoClient(MONGODB_URI)
+    db = client.get_default_database()
+    fitters = db['fitter-collection'] <- 본인에 생성한 collection 정보 입력!
+    cursor = fitters.find()
+    for fitter in cursor:
+        print ('fitter : %s' % (fitter['useremail'])) <- 본인에 생성한 collection의 필드 정보 입력!
+    db.drop_collection('fitters');
+    client.close();
+    
+위와 같이하면 간단하게 연동된 결과물을 얻을 수 있다.
+실제 개발시에는 별도로 위 MongoDB 정보는 다른 곳으로~ 아시죠?
+
