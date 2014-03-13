@@ -38,7 +38,7 @@ PyMongo 설치 끝!
 
 [MongoLab](https://mongolab.com)에 생성한 데이터베이스 정보 상단에 아래와 같은 내용이 있다.
 
-`[캡쳐 이미지 삽입 예정]`
+![](http://crossfitwod.herokuapp.com/uploads/mongolab01.png)
 
 MongoLab 연동에 필요한 정보는
 
