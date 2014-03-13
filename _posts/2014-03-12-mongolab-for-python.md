@@ -37,6 +37,8 @@ PyMongo 설치 끝!
 ### manage.py에 MongoLab(MongoDB) 연동하기
 
 [MongoLab](https://mongolab.com)에 생성한 데이터베이스 정보 상단에 아래와 같은 내용이 있다.
-![MongoLab](https://onedrive.live.com/embed?cid=E64020B0D7EDAE82&resid=E64020B0D7EDAE82%21508&authkey=AK7uEBx2hSpXyOg)
 
-<img class="img-rounded floatLeft" src="https://onedrive.live.com/embed?cid=E64020B0D7EDAE82&resid=E64020B0D7EDAE82%21508&authkey=AK7uEBx2hSpXyOg" title="mongolab info" />
+![mongoLab](https://onedrive.live.com/embed?cid=E64020B0D7EDAE82%28resid=E64020B0D7EDAE82%21508%28authkey=AK7uEBx2hSpXyOg "mongoLab")
+<img class="img-rounded floatLeft" src="https://onedrive.live.com/embed?cid=E64020B0D7EDAE82%28resid=E64020B0D7EDAE82%21508%28authkey=AK7uEBx2hSpXyOg" title="mongolab info" />
+
+<img class="img-rounded floatLeft" style="width:30%;height:30%" src="http://crossfitwod.herokuapp.com/uploads/pic_sm.JPG" title="It's me" />
