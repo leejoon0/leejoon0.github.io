@@ -40,6 +40,8 @@ PyMongo 설치 끝!
 
 ![](http://crossfitwod.herokuapp.com/uploads/mongolab01.png)
 
+<img src="http://crossfitwod.herokuapp.com/uploads/mongolab01.png" />
+
 MongoLab 연동에 필요한 정보는
 
     mongodb://<dbuser>:<dbpassword>@ds035438.mongolab.com:35438/fitterlifedb
