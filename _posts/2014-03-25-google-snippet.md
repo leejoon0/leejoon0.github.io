@@ -41,3 +41,7 @@ emails.py : 아래 부분들의  `fssnippets`을 본인이 생성한 앱명으�
 ### 작업시 발생할 수 있는 에러 및 애로사항
 
 `2014-03-26 이미지 링크 및 내용 추가 예정.`
+
+![](http://crossfitwod.herokuapp.com/uploads/blog02.png)
+
+![](http://crossfitwod.herokuapp.com/uploads/blog01.png)
