@@ -26,5 +26,6 @@ But finding them was a bit tricky.
 
 터미널 상에서, jekyll 서버 시작전에 아래 내용을 먼저 실행후 서버 시작~. 끝!
 
+    $ export LC_CTYPE=en_US.UTF-8
     $ export LANG=en_US.UTF-8
     
