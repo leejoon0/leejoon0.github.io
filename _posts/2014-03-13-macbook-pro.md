@@ -7,4 +7,3 @@ tags: [Macbook]
 ---
 {% include JB/setup %}
 
-멋지다!!!!
