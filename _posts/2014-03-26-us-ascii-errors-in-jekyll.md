@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "US ASCII errors in Jekyll"
+title: "US-ASCII errors in Jekyll"
 description: ""
 category: Jekyll
 tags: [Jekyll, US-ASCII]
