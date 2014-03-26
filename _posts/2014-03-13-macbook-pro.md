@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Macbook pro~"
+title: "macbook pro"
 description: ""
-category:Mac
-tags: [Macbook]
+category: mac
+tags: [macbook]
 ---
 {% include JB/setup %}
 
