@@ -7,6 +7,8 @@ tags: [thrift, cygwin]
 ---
 {% include JB/setup %}
 
+`작성 중...`
+
 ### 0. 미리 준비할 사항
 * [Thrift](http://thrift.apache.org/) 란?
 
