@@ -7,26 +7,31 @@ tags: [thrift, cygwin]
 ---
 {% include JB/setup %}
 
-`작성 중...`
+`수정 중...`
 
 ### 0. 미리 준비할 사항
-* [Thrift](http://thrift.apache.org/) 란?
 
-      .. Thrift는 인터페이스 정의 언어(interface definition language) 및 다양한 언어에 대한 서비스를 
-         정의하고 생성하기 위해 사용되는 이진 통신 프로토콜(binary communication protocol)이다. 
-         페이스북에서 개발된 Thrift는 원격 프로 시저 호출 (RemoteProcedureCall) 프레임 워크로 사용하고 
-         "확장 가능한 언어 간 서비스 개발(scalable cross-language services development)”이다.
-         
-         Thrift는 다양한 개발언어들(C#, C++ (on POSIX-compliant systems), Cappuccino, Cocoa, Delphi, 
-         Erlang, Go, Haskell, Java, Node.js, OCaml, Perl, PHP, Python, Ruby and Smalltalk) 사이에 
-         다양한 수준과 원활하게 효율적으로 작동하는 서비스를 구축하기 위한 코드 생성 엔진을 가진 
-         소프트웨어 스택이다.
-         
-         페이스 북에서 2007년, 4월 릴리즈 되었지만, 현재는 Apache오픈소스프로젝트로 관리되고 있다.
+**Binary Communication Protocol**
+ [Thrift](http://thrift.apache.org/)는 인터페이스 정의 언어(interface definition language) 및 다양한 언어에 대한 서비스를 
+정의하고 생성하기 위해 사용되는 이진 통신 프로토콜(binary communication protocol)이다. 
 
-      .. 서버간 이종언어 통신, 다른 서버와의 통신, 서버와 연결이 필요한 모바일 등에서 사용가능하다.
+**RPC Framework**
+ 페이스북에서 개발된 [Thrift](http://thrift.apache.org/)는 원격 프로 시저 호출 (RPC:RemoteProcedureCall) 프레임 워크로 사용하고 
+"확장 가능한 언어 간 서비스 개발(scalable cross-language services development)”이다.
 
-      .. 위키 : [Apache_Thrift](http://en.wikipedia.org/wiki/Apache_Thrift)
+**Software Stack**
+ [Thrift](http://thrift.apache.org/)는 다양한 개발언어들(C#, C++ (on POSIX-compliant systems), Cappuccino, Cocoa, Delphi, 
+Erlang, Go, Haskell, Java, Node.js, OCaml, Perl, PHP, Python, Ruby and Smalltalk) 사이에 
+다양한 수준과 원활하게 효율적으로 작동하는 서비스를 구축하기 위한 코드 생성 엔진을 가진 
+소프트웨어 스택이다.
+
+**Apache Open Source Project**
+ 페이스 북에서 2007년, 4월 릴리즈 되었지만, 현재는 Apache 오픈소스프로젝트로 관리되고 있다.
+
+**Scalable Cross-language Services**
+ 서버간 이종언어 통신, 다른 서버와의 통신, 서버와 연결이 필요한 모바일 등에서 사용가능하다.
+
+위키 : [Apache_Thrift](http://en.wikipedia.org/wiki/Apache_Thrift)
 
 ### 1. 윈도우 환경
 
@@ -88,6 +93,7 @@ tags: [thrift, cygwin]
     끝!
 
 
+위 2번에서 설명한 C# 파일 생성하기 진행
 
 
 
