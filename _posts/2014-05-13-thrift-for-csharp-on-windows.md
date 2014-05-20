@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Thrift for CSharp (on Windows)"
+title: "Thrift for CSharp - 1/2 (on Windows)"
 description: ""
 category: thrift
 tags: [thrift, cygwin]
@@ -81,14 +81,14 @@ Erlang, Go, Haskell, Java, Node.js, OCaml, Perl, PHP, Python, Ruby and Smalltalk
 초간단 .thrift 소스 : test.thrift
 
     namespace csharp TestThrift
-    struct DataThriftResult
+    struct ThriftStruct
     {
     1: string Val1,
     2: required i32 x1
     }
-    service DataThriftService
+    service ThriftService
     {
-        DataThriftResult getData(1:string param1);
+        ThriftStruct getData(1:string param1);
     }
     끝!
 
