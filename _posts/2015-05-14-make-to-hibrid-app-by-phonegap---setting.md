@@ -22,4 +22,19 @@ PhoneGap 사용
 
     phonegap create phonegap-test -n PhoneGapTest -i test.leejoon0.tutorial.phonegaptest
 
+### iOS/Android App Build & Install to PhoneGap
+iOS 빌드
 
+    phonegap build ios
+    
+iOS 설치
+
+    phonegap install ios
+
+Android 빌드
+
+    phonegap build android
+    
+Android 설치
+
+    phonegap install android
