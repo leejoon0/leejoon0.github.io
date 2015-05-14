@@ -6,7 +6,6 @@ category: PhoneGap
 tags: [PhoneGap,HibridApp]
 ---
 {% include JB/setup %}
-
 __`2015-05-14 상세 내용 및 이미지 추가 예정임!`__
 
 ### 미리 준비할 사항
