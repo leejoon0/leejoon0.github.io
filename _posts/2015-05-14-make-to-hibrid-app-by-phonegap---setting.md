@@ -14,4 +14,12 @@ tags: [PhoneGap,HibridApp]
 * ios-sim 설치
 
 ### 프로젝트 생성
-* PhoneGap 사용
+PhoneGap 사용
+
+    phonegap create {프로젝트이름} -n {프로젝트 디스플레이명} -i {패키지명(app identifier)}
+    
+예를 들면,
+
+    phonegap create phonegap-test -n PhoneGapTest -i test.leejoon0.tutorial.phonegaptest
+
+
